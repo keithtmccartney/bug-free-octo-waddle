@@ -13,13 +13,20 @@ namespace Commander.Controllers
     [ApiController]
     public class CommandsController : ControllerBase
     {
-        private readonly MockCommandRepo _mockCommandRepo = new MockCommandRepo();
+        private readonly ICommandRepo _commandRepo;
+
+        public CommandsController(ICommandRepo commandRepo)
+        {
+            _commandRepo = commandRepo;
+        }
+
+        //private readonly MockCommandRepo _mockCommandRepo = new MockCommandRepo();
 
         //GET api/commands
         [HttpGet]
         public ActionResult<IEnumerable<Command>> GetAllCommands()
         {
-            var commandItems = _mockCommandRepo.GetAppCommands();
+            var commandItems = _commandRepo.GetAppCommands();
 
             return Ok(commandItems);
         }
@@ -28,7 +35,7 @@ namespace Commander.Controllers
         [HttpGet("{id}")]
         public ActionResult<Command> GetCommandById(int id)
         {
-            var commandItem = _mockCommandRepo.GetCommandById(id);
+            var commandItem = _commandRepo.GetCommandById(id);
 
             return Ok(commandItem);
         }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Commander.Data
 {
-	public class MockCommandRepo
+	public class MockCommandRepo : ICommandRepo
 	{
 		public IEnumerable<Command> GetAppCommands()
 		{

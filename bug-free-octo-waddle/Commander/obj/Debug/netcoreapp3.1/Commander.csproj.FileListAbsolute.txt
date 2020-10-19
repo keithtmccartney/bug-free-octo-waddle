@@ -86,8 +86,6 @@ G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\bin\Debu
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debug\netcoreapp3.1\Commander.csproj.CoreCompileInputs.cache
-G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debug\netcoreapp3.1\Commander.MvcApplicationPartsAssemblyInfo.cache
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debug\netcoreapp3.1\Commander.csproj.CopyComplete
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debug\netcoreapp3.1\Commander.dll
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debug\netcoreapp3.1\Commander.pdb
