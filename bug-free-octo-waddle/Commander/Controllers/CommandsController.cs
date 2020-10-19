@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Commander.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/commands")]
     [ApiController]
     public class CommandsController : ControllerBase
     {
