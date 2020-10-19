@@ -20,8 +20,6 @@ namespace Commander.Controllers
             _commandRepo = commandRepo;
         }
 
-        //private readonly MockCommandRepo _mockCommandRepo = new MockCommandRepo();
-
         //GET api/commands
         [HttpGet]
         public ActionResult<IEnumerable<Command>> GetAllCommands()
