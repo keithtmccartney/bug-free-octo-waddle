@@ -16,8 +16,9 @@ Grab the article at [https://www.youtube.com/watch?v=fmvcAzHpsk8](https://www.yo
 
 * Run "ctor" in a class and hit tab twice to build a constructor within a class;
 * Run "prop" in a class and hit tab twice to build a property within a class;
-* Run "dotnet ef migrations add InitialMigration" to add initial migration;
-* Run "dotnet ef migrations remove" to remove initial migration;
+* Run "dotnet ef migrations add InitialMigration" to add a migration;
+* Run "dotnet ef migrations remove" to remove a migration;
+* Run "dotnet ef database update" to create the database based on the migration;
 * User secrets have not been added so connection is in plain sight, credentials are mock and are not used anywhere on the internet; this is for tutorial purposes only;
 
 ## What's it all about?
