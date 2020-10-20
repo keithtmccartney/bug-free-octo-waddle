@@ -7,6 +7,17 @@ Grab the article at [https://www.youtube.com/watch?v=fmvcAzHpsk8](https://www.yo
 
 * Run "dotnet run" to run the API for practical use for production or for testing within Postman;
 * When creating a new SQL user, be sure to set the SQL Server properties to "SQL Server and Windows Authentication mode" (under the Security tab), and reset the "sqlservr.exe" (SQL Server (MSSQLSERVER)) service;
+* No seeding of data was performed early on here in the tutorial, so manually inserting the data was chosen:
+```
+begin transaction
+	insert into Commands(HowTo, Line, Platform)
+	values('How to create migrations', 'dotnet ef migrations add <Name of Migration>', 'EF Core');
+
+	insert into Commands(HowTo, Line, Platform)
+	values('How to run migrations', 'dotnet ef database update', 'EF Core');
+--commit transaction
+rollback transaction
+```
 
 ## Errors Experienced
 
