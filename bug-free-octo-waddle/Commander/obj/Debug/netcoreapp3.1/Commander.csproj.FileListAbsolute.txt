@@ -126,10 +126,9 @@ G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debu
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debug\netcoreapp3.1\staticwebassets\Commander.StaticWebAssets.Manifest.cache
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debug\netcoreapp3.1\staticwebassets\Commander.StaticWebAssets.xml
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debug\netcoreapp3.1\Commander.genruntimeconfig.cache
-G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debug\netcoreapp3.1\Commander.csproj.CoreCompileInputs.cache
-G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debug\netcoreapp3.1\Commander.MvcApplicationPartsAssemblyInfo.cache
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\bin\Debug\netcoreapp3.1\AutoMapper.dll
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\bin\Debug\netcoreapp3.1\Commander.pdb
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debug\netcoreapp3.1\Commander.dll
 G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\obj\Debug\netcoreapp3.1\Commander.pdb
+G:\git\Source\Repos\bug-free-octo-waddle\bug-free-octo-waddle\Commander\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
