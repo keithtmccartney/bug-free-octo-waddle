@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Commander.Data
 {
-	public class CommandDbContext : DbContext
+	public class CommanderContext : DbContext
 	{
-		public CommandDbContext(DbContextOptions<CommandDbContext> options) : base(options)
+		public CommanderContext(DbContextOptions<CommanderContext> options) : base(options)
 		{
 		}
 

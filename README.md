@@ -5,7 +5,8 @@ Grab the article at [https://www.youtube.com/watch?v=fmvcAzHpsk8](https://www.yo
 
 ## Tips/Run
 
-* Abc;
+* Run "dotnet run" to run the API for practical use for production or for testing within Postman;
+* When creating a new SQL user, be sure to set the SQL Server properties to "SQL Server and Windows Authentication mode" (under the Security tab), and reset the "sqlservr.exe" (SQL Server (MSSQLSERVER)) service;
 
 ## Errors Experienced
 
@@ -13,7 +14,11 @@ Grab the article at [https://www.youtube.com/watch?v=fmvcAzHpsk8](https://www.yo
 
 ## Notes:
 
-* Abc;
+* Run "ctor" in a class and hit tab twice to build a constructor within a class;
+* Run "prop" in a class and hit tab twice to build a property within a class;
+* Run "dotnet ef migrations add InitialMigration" to add initial migration;
+* Run "dotnet ef migrations remove" to remove initial migration;
+* User secrets have not been added so connection is in plain sight, credentials are mock and are not used anywhere on the internet; this is for tutorial purposes only;
 
 ## What's it all about?
 
