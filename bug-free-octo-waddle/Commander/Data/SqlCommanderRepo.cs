@@ -15,6 +15,11 @@ namespace Commander.Data
 			_context = context;
 		}
 
+		public void CreateCommand(Command cmd)
+		{
+			throw new NotImplementedException();
+		}
+
 		public IEnumerable<Command> GetAllCommands()
 		{
 			return _context.Commands.ToList();
@@ -23,6 +28,11 @@ namespace Commander.Data
 		public Command GetCommandById(int id)
 		{
 			return _context.Commands.FirstOrDefault(p => p.Id == id);
+		}
+
+		public bool SaveChanges()
+		{
+			throw new NotImplementedException();
 		}
 	}
 }
